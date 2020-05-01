@@ -68,10 +68,21 @@ nav a:hover {
 h2 {
   font-size: 5rem;
   padding-left: 5%;
+  transition: font-size 5s
 }
+
+h2:hover {
+  font-size: 7rem;
+}
+
 
 #name p {
   padding-left: 5%;
+  transition: font-size 5s;
+}
+
+#name p:hover {
+  font-size: 5rem;
 }
 
 h3 {
