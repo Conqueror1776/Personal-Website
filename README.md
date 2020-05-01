@@ -8,4 +8,7 @@ This is a simplistic portfolio website put together quickly without the use of J
 
 HTML/CSS
 
+## Screenshots
+
+![HomeScreen](https://github.com/Conqueror1776/Simplistic-Personal-Website/blob/master/screenshots/HomeScreen "Home Screen")
 
