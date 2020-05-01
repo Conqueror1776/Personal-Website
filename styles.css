@@ -27,7 +27,7 @@ a {
 }
 
 nav a:hover {
-  color: blue;
+  color: black;
 }
 
 #name {
@@ -68,6 +68,8 @@ h2 {
 h3 {
   font-size: 2rem;
   padding-top: 4%;
+  width: 100%;
+  text-align: center;
 }
 
 #projects {
@@ -110,9 +112,12 @@ h3 {
   align-items: center;
   display: flex;
   flex-direction: column;
+  height: 20%;
 }
 .socials {
   width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .socials a{
