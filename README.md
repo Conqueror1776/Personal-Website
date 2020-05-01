@@ -10,5 +10,5 @@ HTML/CSS
 
 ## Screenshots
 
-![HomeScreen](https://github.com/Conqueror1776/Simplistic-Personal-Website/blob/master/screenshots/HomeScreen "Home Screen")
+![HomeScreen](https://github.com/Conqueror1776/Simplistic-Personal-Website/tree/master/screenshots/HomeScreen "Home Screen")
 
