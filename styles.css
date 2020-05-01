@@ -4,6 +4,7 @@
 
 nav {
   background: #fc4445;
+  background-image: Linear-gradient(20deg, #fc4445 50%, #FC3000 100%);
   display: flex;
   position: fixed;
   width: 100%;
@@ -32,7 +33,7 @@ nav a:hover {
 
 #name {
   height: 100vh;
-  background-image: linear-gradient(62deg, #3fee60 0%, #181719 90%);
+  background-image: linear-gradient(9deg, #3f6dee 80%, #2a3dc3 90%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,7 +51,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #97caef;
+  background-color: #97caef;
+  background-image: linear-gradient(50deg, #97caef 50%, #FAFAFA 150%);  display: flex;
   padding: 5% 0;
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
@@ -135,7 +137,7 @@ h3 {
 }
 
 footer {
-  background: #fc4445;
+  background-image: Linear-gradient(20deg, #fc4445 50%, #FC3000 100%);
   height: 10vh;
   width: 100%;
   color: white;
