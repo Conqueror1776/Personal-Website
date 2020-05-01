@@ -129,6 +129,12 @@ h3 {
   text-align: center;
   box-shadow: -5px 2px 0 rgba(1, 1, 1, 0.4);
   color: black;
+  transition: background-color 5s;
+}
+
+.project-tile:hover {
+  background-color: white;
+  background-image: none;
 }
 
 #projects p {
