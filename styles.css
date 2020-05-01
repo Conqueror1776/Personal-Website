@@ -2,9 +2,13 @@
   margin: 0;
 }
 
+body {
+    background-color: #1d1b1b;
+    color: #c7c6c6;
+}
+
 nav {
-  background: #fc4445;
-  background-image: Linear-gradient(20deg, #fc4445 50%, #FC3000 100%);
+  background: black;
   display: flex;
   position: fixed;
   width: 100%;
@@ -16,10 +20,11 @@ nav {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #6f6f6f;
   font-size: 2rem;
   display: block;
   padding: 2rem;
+  text-shadow: -2px 3px 0 rgb(30, 27, 27);
 }
 
 .nav-list {
@@ -28,33 +33,28 @@ a {
 }
 
 nav a:hover {
-  color: black;
+  text-shadow: none;
 }
 
 #name {
   height: 100vh;
-  background-image: linear-gradient(9deg, #3f6dee 80%, #2a3dc3 90%);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 100%;
   left: 0;
   padding: 0;
   font-size: 3rem;
-  color: black;
+  color: white;
   font-family: serif;
-  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
 #about-me{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #97caef;
-  background-image: linear-gradient(50deg, #97caef 50%, #FAFAFA 150%);  display: flex;
-  padding: 5% 0;
-  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  padding: 10% 5%;
+  color: #c7c6c6;;
 }
 
 .about-me-section {
@@ -65,6 +65,11 @@ nav a:hover {
 
 h2 {
   font-size: 5rem;
+  padding-left: 5%;
+}
+
+#name p {
+  padding-left: 5%;
 }
 
 h3 {
@@ -75,12 +80,11 @@ h3 {
 }
 
 #projects {
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #55bcc9;
   padding-bottom: 10%;
-  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
 .projects-grid {
@@ -95,7 +99,7 @@ h3 {
 	float: left;
 	margin: 1.66%;
 	border-radius: 15%;
-  background-image: linear-gradient(10deg, #cafafe 0%, #97caef 90%);
+  background-image: linear-gradient(10deg, #373f40 0%, #75797b 90%);
   font-size: 1.5rem;
   justify-content: center;
   display: flex;
@@ -103,18 +107,19 @@ h3 {
   align-items: center;
   text-align: center;
   box-shadow: -5px 2px 0 rgba(1, 1, 1, 0.4);
+  color: black;
 }
 
 #projects p {
   margin: 0 5%;
 }
 
-#contact-me {
+#contact {
   align-items: center;
   display: flex;
   flex-direction: column;
   height: 20%;
-  background-image: linear-gradient(62deg, #3a3d40 50%, #181719 150%);
+  padding: 10% 0;
 }
 .socials {
   width: 50%;
@@ -123,24 +128,22 @@ h3 {
 }
 
 .socials a{
-  color: black;
+  color: #4a4444;
   float: left;
-  background-color: #abdede;
-  border-radius: 20%;
   margin: 3%;
   padding: 10px;
-  box-shadow: -1px 2px 0 rgba( 0, 0, 0, 0.4);
+  text-shadow: -2px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
 .socials a:hover{
-  box-shadow: none;
+  text-shadow: none;
 }
 
 footer {
-  background-image: Linear-gradient(20deg, #fc4445 50%, #FC3000 100%);
+  background: black;
   height: 10vh;
   width: 100%;
-  color: white;
+  color: #6f6f6f;
   float: right;
   align-items: center;
 }
