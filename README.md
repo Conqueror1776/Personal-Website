@@ -4,7 +4,7 @@ Elijah Tamarchenko
 
 This is a simplistic portfolio website put together quickly without the use of Javascript, with only HTML/CSS. It is a backbones basis for me to build on to create an actual portfolio which will make use to Javascript as well as more frameworks and better visual design.
 
-https://conqueror1776.github.io/Simplistic-Personal-Website/
+https://etchenko.github.io/Simplistic-Personal-Website/
 
 ## Languages
 
